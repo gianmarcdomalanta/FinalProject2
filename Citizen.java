@@ -38,6 +38,9 @@ public class Citizen {
     public char getGender() {
         return gender;
     }
+    public boolean setResident(boolean isResident){
+        return isResident;
+    }
     public void setAddress(String address){
         this.address = address.replace("\"","");
     }
